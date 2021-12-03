@@ -120,7 +120,7 @@ Add a New Project
     ])
     .then(projectData => {
         portfolioData.projects.push(projectData);
-        if (projectData.confrimAddProject) {
+        if (projectData.confirmAddProject) {
             return promptProject(portfolioData);
         } else {
             return portfolioData;
